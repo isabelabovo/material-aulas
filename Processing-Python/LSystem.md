@@ -22,7 +22,7 @@ xo, yo = 300, 500
 def setup():
     global frase
     size(600, 600)
-    frase = gerar_sistema(iteracoes, aximoa, regras)
+    frase = gerar_sistema(iteracoes, axioma, regras)
     print(len(frase))
 
 def draw():
