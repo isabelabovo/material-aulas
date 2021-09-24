@@ -10,12 +10,11 @@ Referências externas:
 ### Um exemplo completo
 
 ```python
-axioma = "X"
-regras = {"X": "F+[[X]-X]-F[-FX]+X",
-          "F": "FF"
+axioma = "F"
+regras = {"F": "FF+[+F-F-F]-[-F+F+F]"
           }          
 tamanho = 10
-angulo = 25
+angulo = 22.5
 iteracoes = 4  # repeticoes (voltas na aplicação das regras)
 xo, yo = 300, 500
 
